@@ -67,6 +67,33 @@ public class SearchInSortedArray {
         return  -1;
     }
 
+    public static int binearSearchRecursive(int[] nums,int l, int r, int key){
+        if(l > r){
+            return -1;
+        }
+        int mid = l + (r - l)/2;
+        if(nums[mid] == key){
+            return mid;
+        }
+        if(nums[l] == nums[mid] && nums [r]== nums[mid]){
+            l++;
+            r--;
+            return binearSearchRecursive(nums, l ,r, key);
+        } else if(nums[l] <= nums[mid]){
+            if(key >= nums[l] && key <= nums[mid]){
+                return binearSearchRecursive(nums, l , mid-1, key);
+            }else{
+                return binearSearchRecursive(nums, mid+1, r, key);
+            }
+        }else{
+            if(key <= nums[r] && key >= nums[mid]){
+                return binearSearchRecursive(nums, mid+1, r, key);
+            }else{
+                return binearSearchRecursive(nums, l, mid-1, key);
+            }
+        }
+    }
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
@@ -78,5 +105,6 @@ public class SearchInSortedArray {
         System.out.println(search(nums, targte));
         System.out.println(binarySearch(nums, targte));
         System.out.println(binarySearchDuplicate(nums, targte));
+        System.out.println(binearSearchRecursive(nums, 0, nums.length-1, targte));
     }
 }
