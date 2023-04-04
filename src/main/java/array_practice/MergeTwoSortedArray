@@ -1,0 +1,51 @@
+Approach -1
+
+The logic is written using the Two-Pointer Approach
+Basically the main logic behind this approach is to start filling the from the largest element at the back of the array given to us.
+
+Let’s consider an Example:
+image
+
+Initially p1 = m-1 , p2 = n-1 , i = m+n-1
+So lets takes two pointers that mark the end of 2 arrays and i ,that would be the index at which we are going to write the value , now we will compare the values at p1 and p2 and write the value that is larger at index i , after writing we decrement the respective indexes .
+And the another edge case is that if any one of the array is empty arr[i] = [0] , index i-1 and another one is arr[j] = [1,2,3] , index = j-1
+So if we consider the index as i-1 then it becomes negative , which is ArrayIndexOutOfBounds ,so we have to take index >=0 .
+
+class Solution {
+    public void merge(int[] nums1, int m, int[] nums2, int n) {
+        int p1 = m-1 , p2 = n-1 ,i = m+n-1;
+        while(p2 >=0 ){
+            if(p1 >=0 && nums1[p1] > nums2[p2]){
+                nums1[i--] = nums1[p1--];
+            }
+            else{
+                nums1[i--] = nums2[p2--];
+            }
+        }
+       }
+}
+----------------------------------------------------------
+Approach -2
+   public void merge(int[] nums1, int m, int[] nums2, int n) {
+        int i1 = m - 1;  //last index of nums1that has valid number
+        int i2 = n - 1; // last index of nums2
+        int lastIndex = m + n - 1; //last index of nums array
+        while(i1 >= 0 && i2 >= 0){
+            if(nums1[i1] > nums2[i2]){ //compare two numbers
+                //if nums1[i1] is bigger, then place it in the last index in nums1
+                nums1[lastIndex] = nums1[i1];
+                i1 --;
+            } else {
+                nums1[lastIndex] = nums2[i2];
+                i2 --;
+            }
+            lastIndex --;
+        }
+        // if i1 is greater than 0 but i2 is not, we don't need to do anything becuase it's a sorted array.
+       // However, if i2 is greater than 0, this means the rest of spot is only n2.
+        while( i2 >= 0){
+            nums1[lastIndex] = nums2[i2];
+            lastIndex --;
+            i2 --;
+        }
+    }
