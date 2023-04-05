@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class MinimizeMaximumOfArray {
 
+    //tc - O(nlogm), sc -O(1)
     public static int minimizeArrayValue(int[] nums){
         int l=0, r = Arrays.stream(nums).max().getAsInt(), ans =0;
         while( l<=r){
@@ -29,6 +30,8 @@ public class MinimizeMaximumOfArray {
         return true;
     }
 
+
+    //tc -O(n), sc -O(1)
     public static int minimizeArrayValueOptimal(int[] nums){
         long sum = 0, ans =0;
         for(int i=0; i<nums.length; i++){
