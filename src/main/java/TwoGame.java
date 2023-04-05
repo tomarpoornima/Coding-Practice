@@ -1,5 +1,10 @@
-import java.util.*;
-import java.lang.Integer;
+import com.google.common.primitives.Ints;
+import org.apache.commons.lang3.ArrayUtils;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 import static java.lang.Integer.parseInt;
 
@@ -32,8 +37,29 @@ public class TwoGame {
 
         //System.out.println(Integer.MAX_VALUE+1);
 
-        System.out.println(parseInt("123Hello"));
-        System.out.println(parseInt("Hello123"));
+        //System.out.println(parseInt("123Hello"));
+        //System.out.println(parseInt("Hello123"));
+
+        int[] arr = {1,2,3,4,5};
+        //apache common lang method
+        Integer[] a = ArrayUtils.toObject(arr);
+        List<Integer> ans = Arrays.asList(a);
+        System.out.println(Collections.min(ans));
+        System.out.println(Collections.max(ans));
+
+        //stream api to convert primitive array to list
+        List<Integer> input = Arrays.stream(arr).boxed().collect(Collectors.toList());
+        List<Integer> input1 = IntStream.of(arr).boxed().collect(Collectors.toList());
+
+        int maxNum = IntStream.range(0, arr.length).map(i -> arr[i]).max().getAsInt();
+        System.out.println(maxNum);
+
+        int min = Arrays.stream(arr).min().getAsInt();
+        int max = Arrays.stream(arr).max().getAsInt();
+        System.out.println(min+" "+max);
+
+        //guava mibrary
+        List<Integer> output = Ints.asList(arr);
 
     }
 
