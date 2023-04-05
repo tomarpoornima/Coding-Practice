@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebbf545d-017b-4c00-b8a2-1524132bcb13" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/array_practice/MinimizeMaximumOfArray.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TwoGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TwoGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array_practice/FindMinInSortedRotated.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_practice/FindMinInSortedRotated.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/array_practice/SearchInSortedArray.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -108,25 +105,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="14" />
-          <entry key="java" value="2996" />
+          <entry key="java" value="3678" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2996" />
+          <entry key="JAVA" value="3678" />
           <entry key="PLAIN_TEXT" value="14" />
         </counts>
       </usages-collector>
@@ -138,34 +135,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/array_practice/SearchInSortedRotatedArray.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/array_practice/MinimizeMaximumOfArray.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="96" column="44" selection-start-line="96" selection-start-column="44" selection-end-line="96" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/array_practice/FindMinInSortedRotated.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="106" selection-start-line="1" selection-start-column="106" selection-end-line="1" selection-end-column="106" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/TwoGame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1188">
-              <caret line="54" column="8" selection-start-line="54" selection-start-column="8" selection-end-line="54" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="427">
+              <caret line="48" column="58" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -193,7 +166,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/recursion_practice/StringCopy.java" />
         <option value="$PROJECT_DIR$/src/main/java/recursion_practice/PalindromeRec.java" />
         <option value="$PROJECT_DIR$/src/main/java/Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/array_practice/LeaderInArray.java" />
@@ -244,6 +216,7 @@
         <option value="$PROJECT_DIR$/src/main/java/array_practice/SearchInSortedRotatedArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/array_practice/FindMinInSortedRotated.java" />
         <option value="$PROJECT_DIR$/src/main/java/TwoGame.java" />
+        <option value="$PROJECT_DIR$/src/main/java/array_practice/MinimizeMaximumOfArray.java" />
       </list>
     </option>
   </component>
@@ -407,6 +380,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="array_practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coding-Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coding-Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="binarysearch_practice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -419,7 +400,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/raksh/Downloads/interview/poornima_leetcode/src/main/java/Immutability/Employee.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1680668717715" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1680674986466" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../poornima/projects/DemoUser" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -439,7 +420,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwoGame">
+  <component name="RunManager" selected="Application.MinimizeMaximumOfArray">
     <configuration name="FindMinInSortedRotated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array_practice.FindMinInSortedRotated" />
       <module name="poornima_leetcode" />
@@ -466,12 +447,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PartitionOfString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="string_package.PartitionOfString" />
+    <configuration name="MinimizeMaximumOfArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_practice.MinimizeMaximumOfArray" />
       <module name="poornima_leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="string_package.*" />
+          <option name="PATTERN" value="array_practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -501,18 +482,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TwoGame" />
-      <item itemvalue="Application.PartitionOfString" />
       <item itemvalue="Application.GuessNumber" />
       <item itemvalue="Application.SearchInSortedRotatedArray" />
       <item itemvalue="Application.FindMinInSortedRotated" />
+      <item itemvalue="Application.MinimizeMaximumOfArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimizeMaximumOfArray" />
         <item itemvalue="Application.TwoGame" />
         <item itemvalue="Application.FindMinInSortedRotated" />
         <item itemvalue="Application.SearchInSortedRotatedArray" />
         <item itemvalue="Application.GuessNumber" />
-        <item itemvalue="Application.PartitionOfString" />
       </list>
     </recent_temporary>
   </component>
@@ -555,7 +536,7 @@
       <window_info id="Maven Projects" order="10" sideWeight="0.94949496" weight="0.20706007" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.29405162" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.29405162" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2760943" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -618,9 +599,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/array_practice/MergeTwoSortedArray">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/array_practice/MergeTwoSortedArrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
@@ -927,13 +905,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/array_practice/FindMinInSortedRotated.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="106" selection-start-line="1" selection-start-column="106" selection-end-line="1" selection-end-column="106" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/function/IntUnaryOperator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="201">
@@ -946,6 +917,23 @@
         <state relative-caret-position="-103" />
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/array_practice/SearchInSortedRotatedArray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1723">
+          <caret line="96" column="44" selection-start-line="96" selection-start-column="44" selection-end-line="96" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/array_practice/FindMinInSortedRotated.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="106" selection-start-line="1" selection-start-column="106" selection-end-line="1" selection-end-column="106" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TwoGame.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1188">
@@ -956,13 +944,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/array_practice/SearchInSortedRotatedArray.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/array_practice/MinimizeMaximumOfArray.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="96" column="44" selection-start-line="96" selection-start-column="44" selection-end-line="96" selection-end-column="44" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="427">
+          <caret line="48" column="58" selection-start-line="48" selection-start-column="58" selection-end-line="48" selection-end-column="58" />
         </state>
       </provider>
     </entry>
