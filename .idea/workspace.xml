@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebbf545d-017b-4c00-b8a2-1524132bcb13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/array_practice/KadaneAlgorithim.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/array_practice/MinimizeMaximumOfArray.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/array_practice/MinimizeMaximumOfArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_practice/MinimizeMaximumOfArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/array_practice/KadaneAlgorithim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/array_practice/KadaneAlgorithim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/array_practice/KadaneAlgorithim.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -99,7 +97,7 @@
     <session id="1793754879">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.opened" value="2" />
@@ -120,12 +118,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="24" />
-          <entry key="java" value="4117" />
+          <entry key="java" value="4187" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4117" />
+          <entry key="JAVA" value="4187" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
@@ -140,7 +138,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/array_practice/KadaneAlgorithim.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="616">
-              <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="32" />
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -236,9 +234,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1131" />
+    <option name="x" value="974" />
     <option name="y" value="14" />
-    <option name="width" value="799" />
+    <option name="width" value="956" />
     <option name="height" value="1030" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -376,22 +374,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Coding-Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Coding-Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="array_practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Coding-Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Coding-Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="binarysearch_practice" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -402,7 +384,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/raksh/Downloads/interview/poornima_leetcode/src/main/java/Immutability/Employee.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1680693605238" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1680708913422" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../poornima/projects/DemoUser" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -523,9 +505,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7149271" side_tool="true" visible="true" weight="0.243941" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.7149271" side_tool="true" visible="true" weight="0.14857745" />
       <window_info id="Structure" order="1" sideWeight="0.12060302" side_tool="true" weight="0.20706007" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -538,7 +519,7 @@
       <window_info id="Maven Projects" order="10" sideWeight="0.94949496" weight="0.20706007" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20987654" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.20987654" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2760943" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -949,7 +930,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/array_practice/KadaneAlgorithim.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="616">
-          <caret line="28" column="31" selection-start-line="28" selection-start-column="31" selection-end-line="28" selection-end-column="32" />
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
