@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebbf545d-017b-4c00-b8a2-1524132bcb13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/stack_practice/ValidParentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/string_package/RemoveStarsFromString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/stack_practice/ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/stack_practice/ValidParentheses.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/stack_practice/ValidParentheses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/stack_practice/ValidParentheses.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -97,35 +99,36 @@
     <session id="1793754879">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.12" value="1" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="13" />
+          <entry key="java" value="14" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="13" />
+          <entry key="JAVA" value="14" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="24" />
-          <entry key="java" value="4576" />
+          <entry key="java" value="5299" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4576" />
+          <entry key="JAVA" value="5299" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
@@ -148,20 +151,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/string_package/ValidParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-763">
+            <state relative-caret-position="66">
               <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/stack_practice/ValidParentheses.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="469">
+              <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/string_package/RemoveStarsFromString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
             </state>
           </provider>
         </entry>
@@ -189,7 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/array_practice/PairSumInArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/array_practice/MarsStone.java" />
         <option value="$PROJECT_DIR$/src/main/java/array_practice/SplitArrayInSize.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -240,6 +251,7 @@
         <option value="$PROJECT_DIR$/src/main/java/array_practice/Kadane.java" />
         <option value="$PROJECT_DIR$/src/main/java/array_practice/KadaneAlgorithim.java" />
         <option value="$PROJECT_DIR$/src/main/java/stack_practice/ValidParentheses.java" />
+        <option value="$PROJECT_DIR$/src/main/java/string_package/RemoveStarsFromString.java" />
       </list>
     </option>
   </component>
@@ -252,7 +264,12 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="poornima_leetcode" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
@@ -379,11 +396,6 @@
             <path>
               <item name="Coding-Practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="Coding-Practice" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Coding-Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Coding-Practice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -398,14 +410,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Coding-Practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Coding-Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="stack_practice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Coding-Practice" type="b2602c69:ProjectViewProjectNode" />
@@ -423,7 +427,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/raksh/Downloads/interview/poornima_leetcode/src/main/java/Immutability/Employee.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1681124813557" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1681193675118" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../poornima/projects/DemoUser" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -443,20 +447,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.ValidParentheses">
-    <configuration name="FindMinInSortedRotated" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array_practice.FindMinInSortedRotated" />
-      <module name="poornima_leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="array_practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RemoveStarsFromString">
     <configuration name="KadaneAlgorithim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="array_practice.KadaneAlgorithim" />
       <module name="poornima_leetcode" />
@@ -476,6 +467,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="array_practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveStarsFromString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="string_package.RemoveStarsFromString" />
+      <module name="poornima_leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="string_package.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -505,18 +509,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.TwoGame" />
-      <item itemvalue="Application.FindMinInSortedRotated" />
       <item itemvalue="Application.MinimizeMaximumOfArray" />
       <item itemvalue="Application.KadaneAlgorithim" />
       <item itemvalue="Application.ValidParentheses" />
+      <item itemvalue="Application.RemoveStarsFromString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveStarsFromString" />
         <item itemvalue="Application.ValidParentheses" />
         <item itemvalue="Application.KadaneAlgorithim" />
         <item itemvalue="Application.MinimizeMaximumOfArray" />
         <item itemvalue="Application.TwoGame" />
-        <item itemvalue="Application.FindMinInSortedRotated" />
       </list>
     </recent_temporary>
   </component>
@@ -546,17 +550,17 @@
     <frame x="-8" y="-8" width="1936" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.7149271" side_tool="true" visible="true" weight="0.14857745" />
-      <window_info id="Structure" order="1" sideWeight="0.12060302" side_tool="true" weight="0.20706007" />
-      <window_info id="Designer" order="2" />
-      <window_info id="Image Layers" order="3" />
-      <window_info id="DB Browser" order="4" sideWeight="0.49719417" weight="0.33350897" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Project Explorer" order="6" sideWeight="0.28507295" weight="0.19441517" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.89772725" side_tool="true" visible="true" weight="0.20706007" />
+      <window_info id="Designer" order="1" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="DB Browser" order="3" sideWeight="0.49719417" weight="0.33350897" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Project Explorer" order="5" sideWeight="0.28507295" weight="0.19441517" />
+      <window_info id="Structure" order="6" sideWeight="0.10227273" side_tool="true" weight="0.20706007" />
       <window_info id="Favorites" order="7" sideWeight="0.07631874" side_tool="true" weight="0.20706007" />
       <window_info id="Capture Tool" order="8" />
       <window_info id="Job Explorer" order="9" sideWeight="0.49719417" weight="0.32982087" />
-      <window_info id="Maven Projects" order="10" sideWeight="0.94949496" weight="0.20706007" />
+      <window_info id="Maven Projects" order="10" sideWeight="0.10227273" weight="0.20706007" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.20987654" />
@@ -622,13 +626,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/tree_practice/MaxDepthOfBinaryTree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2728">
-          <caret line="124" column="22" selection-start-line="124" selection-start-column="22" selection-end-line="124" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/tree_practice/PostorderTraversal_Iterative">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2448" />
@@ -953,18 +950,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/string_package/ValidParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-763">
+        <state relative-caret-position="66">
           <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/stack_practice/ValidParentheses.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="469">
+          <caret line="70" column="9" selection-start-line="70" selection-start-column="9" selection-end-line="70" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/string_package/RemoveStarsFromString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
         </state>
       </provider>
     </entry>
