@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebbf545d-017b-4c00-b8a2-1524132bcb13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/collection_practice/DequeDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/array_practice/MaximumSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/collection_practice/DequeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/collection_practice/DequeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/collection_practice/DequeDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/collection_practice/DequeDemo.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -109,25 +111,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="18" />
+          <entry key="java" value="19" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="18" />
+          <entry key="JAVA" value="19" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="24" />
-          <entry key="java" value="7314" />
+          <entry key="java" value="8243" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="7314" />
+          <entry key="JAVA" value="8243" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
@@ -204,11 +206,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/collection_practice/DequeDemo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+            <state relative-caret-position="270">
+              <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/array_practice/MaximumSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -251,7 +265,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/RecurstionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/recursion_practice/Print1ToNNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/recursion_practice/HieghtOfBinaryTree.java" />
         <option value="$PROJECT_DIR$/src/main/java/string_package/ReverseString.java" />
@@ -302,6 +315,7 @@
         <option value="$PROJECT_DIR$/src/main/java/RegexDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/string_package/SimplifyPath.java" />
         <option value="$PROJECT_DIR$/src/main/java/collection_practice/DequeDemo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/array_practice/MaximumSum.java" />
       </list>
     </option>
   </component>
@@ -324,8 +338,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="870" />
-    <option name="y" value="141" />
+    <option name="x" value="861" />
+    <option name="y" value="81" />
     <option name="width" value="956" />
     <option name="height" value="1030" />
   </component>
@@ -466,6 +480,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="array_practice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Coding-Practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Coding-Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="collection_practice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -477,7 +499,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/raksh/Downloads/interview/poornima_leetcode/src/main/java/Immutability/Employee.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1681289955455" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1681293957080" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../poornima/projects/DemoUser" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -497,13 +519,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.DequeDemo">
+  <component name="RunManager" selected="Application.MaximumSum">
     <configuration name="DequeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="collection_practice.DequeDemo" />
       <module name="poornima_leetcode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="collection_practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array_practice.MaximumSum" />
+      <module name="poornima_leetcode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array_practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -544,33 +579,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="stack_practice.ValidParentheses" />
-      <module name="poornima_leetcode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="stack_practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.ValidParentheses" />
       <item itemvalue="Application.RemoveStarsFromString" />
       <item itemvalue="Application.RegexDemo" />
       <item itemvalue="Application.SimplifyPath" />
       <item itemvalue="Application.DequeDemo" />
+      <item itemvalue="Application.MaximumSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaximumSum" />
         <item itemvalue="Application.DequeDemo" />
         <item itemvalue="Application.SimplifyPath" />
         <item itemvalue="Application.RegexDemo" />
         <item itemvalue="Application.RemoveStarsFromString" />
-        <item itemvalue="Application.ValidParentheses" />
       </list>
     </recent_temporary>
   </component>
@@ -597,7 +619,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="870" y="141" width="956" height="1030" extended-state="0" />
+    <frame x="861" y="81" width="956" height="1030" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.89772725" side_tool="true" visible="true" weight="0.33769062" />
@@ -676,13 +698,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/sorting_algorithims/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorting_algorithims/InsertionSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
@@ -1031,8 +1046,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/collection_practice/DequeDemo.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+        <state relative-caret-position="270">
+          <caret line="57" column="38" selection-start-line="57" selection-start-column="38" selection-end-line="57" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/array_practice/MaximumSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="48" column="26" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -3,6 +3,7 @@ package collection_practice;
 import java.util.ArrayDeque;
 import java.util.Deque;
 import java.util.Iterator;
+import java.util.PriorityQueue;
 
 public class DequeDemo {
 
@@ -48,5 +49,14 @@ public class DequeDemo {
         System.out.println(dq);
         System.out.println(isPalindrome("madam"));
         System.out.println(isPalindrome("cacc"));
+
+        PriorityQueue<Integer> pq = new PriorityQueue<>();
+        pq.add(10);
+        pq.add(20);
+        pq.add(15);
+        System.out.println(pq);
+        System.out.println(pq.peek());
+        System.out.println(pq.poll());
+        System.out.println(pq.peek());
     }
 }
