@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebbf545d-017b-4c00-b8a2-1524132bcb13" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/RegexDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/string_package/SimplifyPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/collection_practice/DequeDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -110,25 +109,25 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="16" />
+          <entry key="java" value="18" />
           <entry key="xml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="18" />
           <entry key="XML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="24" />
-          <entry key="java" value="6752" />
+          <entry key="java" value="7314" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="6752" />
+          <entry key="JAVA" value="7314" />
           <entry key="PLAIN_TEXT" value="24" />
         </counts>
       </usages-collector>
@@ -193,13 +192,37 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/string_package/SimplifyPath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="476">
-              <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+            <state relative-caret-position="454">
+              <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/collection_practice/DequeDemo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayDeque.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="156">
+              <caret line="451" selection-start-line="451" selection-end-line="451" />
+              <folding>
+                <element signature="e#14595#14596#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -228,7 +251,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/RecurstionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/recursion_practice/Print1ToNNumbers.java" />
         <option value="$PROJECT_DIR$/src/main/java/recursion_practice/HieghtOfBinaryTree.java" />
@@ -279,6 +301,7 @@
         <option value="$PROJECT_DIR$/src/main/java/string_package/RemoveStarsFromString.java" />
         <option value="$PROJECT_DIR$/src/main/java/RegexDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/string_package/SimplifyPath.java" />
+        <option value="$PROJECT_DIR$/src/main/java/collection_practice/DequeDemo.java" />
       </list>
     </option>
   </component>
@@ -300,9 +323,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="48" />
-    <option name="y" value="181" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="870" />
+    <option name="y" value="141" />
     <option name="width" value="956" />
     <option name="height" value="1030" />
   </component>
@@ -443,7 +466,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="string_package" type="462c0819:PsiDirectoryNode" />
+              <item name="collection_practice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -454,7 +477,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/raksh/Downloads/interview/poornima_leetcode/src/main/java/Immutability/Employee.java" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1681281611364" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1681289955455" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../poornima/projects/DemoUser" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -474,13 +497,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SimplifyPath">
-    <configuration name="KadaneAlgorithim" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="array_practice.KadaneAlgorithim" />
+  <component name="RunManager" selected="Application.DequeDemo">
+    <configuration name="DequeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="collection_practice.DequeDemo" />
       <module name="poornima_leetcode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="array_practice.*" />
+          <option name="PATTERN" value="collection_practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -535,19 +558,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.KadaneAlgorithim" />
       <item itemvalue="Application.ValidParentheses" />
       <item itemvalue="Application.RemoveStarsFromString" />
       <item itemvalue="Application.RegexDemo" />
       <item itemvalue="Application.SimplifyPath" />
+      <item itemvalue="Application.DequeDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DequeDemo" />
         <item itemvalue="Application.SimplifyPath" />
         <item itemvalue="Application.RegexDemo" />
         <item itemvalue="Application.RemoveStarsFromString" />
         <item itemvalue="Application.ValidParentheses" />
-        <item itemvalue="Application.KadaneAlgorithim" />
       </list>
     </recent_temporary>
   </component>
@@ -574,10 +597,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="48" y="181" width="956" height="1030" extended-state="0" />
+    <frame x="870" y="141" width="956" height="1030" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.89772725" side_tool="true" visible="true" weight="0.16884531" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.89772725" side_tool="true" visible="true" weight="0.33769062" />
       <window_info id="Designer" order="1" />
       <window_info id="Image Layers" order="2" />
       <window_info id="DB Browser" order="3" sideWeight="0.49719417" weight="0.33350897" />
@@ -590,7 +613,7 @@
       <window_info id="Maven Projects" order="10" sideWeight="0.10227273" weight="0.20706007" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32416952" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.4089347" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2760943" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -653,20 +676,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/tree_practice/TreeTraversalIterative.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/sorting_algorithims/MergeSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/sorting_algorithims/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -1002,8 +1011,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/string_package/SimplifyPath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="36" column="43" selection-start-line="36" selection-start-column="43" selection-end-line="36" selection-end-column="43" />
+        <state relative-caret-position="454">
+          <caret line="44" column="41" selection-start-line="44" selection-start-column="41" selection-end-line="44" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="451" selection-start-line="451" selection-end-line="451" />
+          <folding>
+            <element signature="e#14595#14596#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/collection_practice/DequeDemo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="49" column="46" selection-start-line="49" selection-start-column="46" selection-end-line="49" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
